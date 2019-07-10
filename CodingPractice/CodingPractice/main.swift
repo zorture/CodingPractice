@@ -18,4 +18,7 @@ import Foundation
 //LinkedList.run()
 //Permutations.run()
 //ReverseInteger.run()
-ValidPalindrome.run()
+//ValidPalindrome.run()
+//MergeSortedArray.run()
+//ArrayRotation.run()
+BubbleSort.run()

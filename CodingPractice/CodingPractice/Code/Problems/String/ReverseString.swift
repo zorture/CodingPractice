@@ -24,7 +24,7 @@ struct ReverseString {
     
     static func run(){
         let obj = ReverseString()
-        var string = Array("abcdefghijklmnopqrstuvwxyz1234567890abcdefghijklmnopqrstuvwxyz")
+        var string = Array("abcdefghijklmnopqrstuvwxyz1234567890abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz1234567890abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz1234567890abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz1234567890abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz1234567890abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz1234567890abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz1234567890abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz1234567890abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz1234567890abcdefghijklmnopqrstuvwxyz")
         let value = obj.reverse(&string)
         print(value)
     }
