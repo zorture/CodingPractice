@@ -11,5 +11,11 @@ import Foundation
 //FirstUniqueCharacter.run()
 //ReverseString.run()
 //SingleNumber.run()
-MoveZeroes.run()
-
+//MoveZeroes.run()
+//MajorityElement.run()
+//ValidAnagram.run()
+//ContainsDuplicate.run()
+//LinkedList.run()
+//Permutations.run()
+//ReverseInteger.run()
+ValidPalindrome.run()
