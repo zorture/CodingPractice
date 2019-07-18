@@ -59,9 +59,20 @@ struct ArrayRotation {
         }
     }
     
+    func findGCD(array: [Int])-> Int {
+        var result = array.first ?? 1;
+        for num in array {
+            result = getGCD(num1: num, num2: result)
+        }
+        
+        return result;
+    }
+    
     static func run() {
         let obj = ArrayRotation()
         print(obj.rotLeftQuick(a: [1,2,3,4,5,6,7], d: 3))
         print(obj.rotLeft(a: [1,2,3,4,5,6,7], d: 3))
+        print(obj.findGCD(array: [2,4,6,8,10]))
+        print(obj.findGCD(array: [2,3,4,5,6]))
     }
 }

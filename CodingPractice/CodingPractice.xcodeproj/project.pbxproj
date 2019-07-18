@@ -19,9 +19,14 @@
 		B97A2E9222D4D30400F2D704 /* MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97A2E9122D4D30400F2D704 /* MajorityElement.swift */; };
 		B97A2E9422D4D4FA00F2D704 /* ValidAnagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97A2E9322D4D4FA00F2D704 /* ValidAnagram.swift */; };
 		B97A2E9622D4D67A00F2D704 /* ContainsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97A2E9522D4D67A00F2D704 /* ContainsDuplicate.swift */; };
+		B9A356E422E00921002C1C4B /* TreasureIsland.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A356E322E00921002C1C4B /* TreasureIsland.swift */; };
 		B9CC32C822D571470085DE0B /* ValidPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CC32C722D571470085DE0B /* ValidPalindrome.swift */; };
 		B9CC32CB22D64D5B0085DE0B /* ArrayRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CC32CA22D64D5B0085DE0B /* ArrayRotation.swift */; };
 		B9CC32CD22D6562D0085DE0B /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CC32CC22D6562D0085DE0B /* BubbleSort.swift */; };
+		B9CC32CF22DC25530085DE0B /* MovieDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CC32CE22DC25530085DE0B /* MovieDuration.swift */; };
+		B9CC32D122DCE8390085DE0B /* KSubSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CC32D022DCE8390085DE0B /* KSubSequence.swift */; };
+		B9CC32D322DCF5670085DE0B /* ValidJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CC32D222DCF5670085DE0B /* ValidJson.swift */; };
+		B9CC32D522DD12460085DE0B /* ActiveCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CC32D422DD12460085DE0B /* ActiveCells.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,9 +55,14 @@
 		B97A2E9122D4D30400F2D704 /* MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityElement.swift; sourceTree = "<group>"; };
 		B97A2E9322D4D4FA00F2D704 /* ValidAnagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidAnagram.swift; sourceTree = "<group>"; };
 		B97A2E9522D4D67A00F2D704 /* ContainsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicate.swift; sourceTree = "<group>"; };
+		B9A356E322E00921002C1C4B /* TreasureIsland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreasureIsland.swift; sourceTree = "<group>"; };
 		B9CC32C722D571470085DE0B /* ValidPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidPalindrome.swift; sourceTree = "<group>"; };
 		B9CC32CA22D64D5B0085DE0B /* ArrayRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayRotation.swift; sourceTree = "<group>"; };
 		B9CC32CC22D6562D0085DE0B /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
+		B9CC32CE22DC25530085DE0B /* MovieDuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDuration.swift; sourceTree = "<group>"; };
+		B9CC32D022DCE8390085DE0B /* KSubSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSubSequence.swift; sourceTree = "<group>"; };
+		B9CC32D222DCF5670085DE0B /* ValidJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidJson.swift; sourceTree = "<group>"; };
+		B9CC32D422DD12460085DE0B /* ActiveCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveCells.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +147,9 @@
 				B97A2E9522D4D67A00F2D704 /* ContainsDuplicate.swift */,
 				B96E631B22D5190E00DF0DED /* Permutations.swift */,
 				B96E631D22D5541700DF0DED /* ReverseInteger.swift */,
+				B9CC32CE22DC25530085DE0B /* MovieDuration.swift */,
+				B9CC32D022DCE8390085DE0B /* KSubSequence.swift */,
+				B9CC32D422DD12460085DE0B /* ActiveCells.swift */,
 			);
 			path = Numbers;
 			sourceTree = "<group>";
@@ -148,6 +161,7 @@
 				B97A2E8A22D4D1AC00F2D704 /* FirstUniqueLetter.swift */,
 				B97A2E9322D4D4FA00F2D704 /* ValidAnagram.swift */,
 				B9CC32C722D571470085DE0B /* ValidPalindrome.swift */,
+				B9CC32D222DCF5670085DE0B /* ValidJson.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -156,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				B9CC32CA22D64D5B0085DE0B /* ArrayRotation.swift */,
+				B9A356E322E00921002C1C4B /* TreasureIsland.swift */,
 			);
 			path = Arrays;
 			sourceTree = "<group>";
@@ -220,17 +235,22 @@
 				B96E631A22D4DBB000DF0DED /* LinkedList.swift in Sources */,
 				B96E632122D640DB00DF0DED /* MergeSortedArray.swift in Sources */,
 				B9CC32CD22D6562D0085DE0B /* BubbleSort.swift in Sources */,
+				B9CC32D522DD12460085DE0B /* ActiveCells.swift in Sources */,
 				B97A2E8D22D4D1AD00F2D704 /* MoveZeroes.swift in Sources */,
+				B9CC32CF22DC25530085DE0B /* MovieDuration.swift in Sources */,
 				B9CC32CB22D64D5B0085DE0B /* ArrayRotation.swift in Sources */,
 				B97A2E9022D4D1AD00F2D704 /* main.swift in Sources */,
 				B9CC32C822D571470085DE0B /* ValidPalindrome.swift in Sources */,
 				B97A2E9422D4D4FA00F2D704 /* ValidAnagram.swift in Sources */,
 				B96E631C22D5190E00DF0DED /* Permutations.swift in Sources */,
 				B96E631E22D5541700DF0DED /* ReverseInteger.swift in Sources */,
+				B9CC32D122DCE8390085DE0B /* KSubSequence.swift in Sources */,
 				B97A2E8F22D4D1AD00F2D704 /* FirstUniqueLetter.swift in Sources */,
 				B97A2E9622D4D67A00F2D704 /* ContainsDuplicate.swift in Sources */,
 				B97A2E8C22D4D1AD00F2D704 /* SingleNumber.swift in Sources */,
 				B97A2E8E22D4D1AD00F2D704 /* ReverseString.swift in Sources */,
+				B9A356E422E00921002C1C4B /* TreasureIsland.swift in Sources */,
+				B9CC32D322DCF5670085DE0B /* ValidJson.swift in Sources */,
 				B97A2E9222D4D30400F2D704 /* MajorityElement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
