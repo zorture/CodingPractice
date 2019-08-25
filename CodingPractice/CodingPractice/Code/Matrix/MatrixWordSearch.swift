@@ -8,24 +8,24 @@
 
 import Foundation
 
-class Tries {
+class Triess {
     var value: String!
-    var child = [String: Tries]()
+    var child = [String: Triess]()
 }
 
 class MatrixWordSearch {
     
-    var trieDict = Tries()
+    var trieDict = Triess()
 
     func longestWord(inMatrix matrix: [[String]], fromWrods words: [String]) -> [String] {
         createTrie(forWords: words)
         return ["a"]
     }
     
-    func creatTrie(forNode node: Tries , withChar char: String) -> Tries {
+    func creatTrie(forNode node: Triess , withChar char: String) -> Triess {
         
         guard let child = node.child[char] else {
-            let childTrie = Tries()
+            let childTrie = Triess()
             childTrie.value = char
             return childTrie
         }
@@ -72,10 +72,10 @@ class MatrixWordSearch {
                       ["P", "O", "N", "O", "D"],
                       ["L", "E", "E", "C", "E"],
                       ["E", "G", "A", "N", "T"],]
-        let wordList = ["apple","applest","applepv"];
-        obj.createTrie(forWords: wordList)
-        print(obj.searchWords(inList: ["apple","apples","applep","applz"]))
+        //let wordList = ["apple","applest","applepv"];
+        //obj.createTrie(forWords: wordList)
+        //print(obj.searchWords(inList: ["apple","apples","applep","applz"]))
         let wordLists = ["confident", "apple", "aonecode","graceful", "elegent"];
-        print(obj.longestWord(inMatrix: matrix, fromWrods: wordList))
+        print(obj.longestWord(inMatrix: matrix, fromWrods: wordLists))
     }
 }
